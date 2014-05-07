@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'bebasregular';
+    src: url('fonts/bebas___-webfont.eot');
+    src: url('fonts/bebas___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebas___-webfont.woff') format('woff'),
+         url('fonts/bebas___-webfont.ttf') format('truetype'),
+         url('fonts/bebas___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body h1, body h2, body h3, body h4, body h5{
+	font-weight: normal;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .main-heading{
 	text-align: center;
 	color: white;
@@ -52,4 +69,35 @@
 	text-align:center;
 	margin-top:100px;
 	margin-bottom:100px;
+}
+
+.container-fluid{
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1800px;
+}
+
+.container-fluid .row{
+	padding: 0;
+}
+
+.project-images{
+	margin-top: 30px;
+}
+
+.thumbnail{
+	position: relative;
+}
+
+.thumbnail span{
+	display: none;
+	position: absolute;
+	padding-top: 100px;
+	top: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.thumbnail:hover span{
+	display: block;
 }
