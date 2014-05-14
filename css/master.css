@@ -49,14 +49,21 @@ body h1, body h2, body h3, body h4, body h5{
 	color:#182028;
 	text-align: center;
 	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-bottom: 100px;
+}
+
+.little-tidbit1{
+	color:#182028;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 .biography{
 	margin-left: 100px;
 	margin-right: 100px;
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 100px;
 }
 
 .footer-section{
@@ -82,7 +89,7 @@ body h1, body h2, body h3, body h4, body h5{
 }
 
 .project-images{
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 .thumbnail{
@@ -105,3 +112,50 @@ body h1, body h2, body h3, body h4, body h5{
 .hover-font{
 	color: white;
 	font-family: helvetica;
+}
+
+.project-images{
+	border: none;
+	margin-bottom: 100px;
+}		
+
+.nav{
+	margin-left: 20px;
+}
+
+.nav a{
+	color: black;
+}
+
+.navbar-right{
+	margin-right: 100px;
+}
+
+.descriptors{
+	text-align: center;
+}
+
+.date{
+	text-align: right;
+}
+
+.location{
+	text-align: center;
+}
+
+.camera{
+	text-align: left;
+}
+
+.date-loc-cam{
+	text-align: center;
+	style: bold;
+}
+
+.description-section{
+	margin-bottom: 40px;
+}
+
+nav .container-fluid{
+	padding-right:25px;
+}
