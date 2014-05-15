@@ -15,10 +15,11 @@ body h1, body h2, body h3, body h4, body h5{
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+
 .main-heading{
 	text-align: center;
 	color: white;
-	font-size: 95px;
+	font-size: 200px;
 }
 
 .sub-heading{
@@ -50,6 +51,7 @@ body h1, body h2, body h3, body h4, body h5{
 	text-align: center;
 	margin-top: 100px;
 	margin-bottom: 100px;
+	font-family: bebasregular;
 }
 
 .little-tidbit1{
@@ -125,6 +127,7 @@ body h1, body h2, body h3, body h4, body h5{
 
 .nav a{
 	color: black;
+	font-family:bebasregular;
 }
 
 .navbar-right{
@@ -158,4 +161,21 @@ body h1, body h2, body h3, body h4, body h5{
 
 nav .container-fluid{
 	padding-right:25px;
+}
+
+.gallery-image{
+	border: none;
+}
+
+h4.modal-title{
+	text-align: center;
+}
+
+#expanded-gallery .modal-content{
+	width: 100%;
+}
+
+.navbar-brand{
+	padding-left:25px;
+	margin-top:2px;
 }
