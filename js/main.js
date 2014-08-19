@@ -23,12 +23,12 @@ app.config(['$routeProvider', function($routeProvider){
 		})
 		.when('/projects', {
 			templateUrl: 'partials/projects.html',
-			controller: 'HomeCtrl',
+			controller: 'ProjectsCtrl',
 			pageTitle: 'Projects'
 		})
-		.when('/projects/:projectName', {
-			templateUrl: 'partials/project.html',
-			controller: 'HomeCtrl',
+		.when('/projects/:projectSlug', {
+			templateUrl: 'partials/project-detail.html',
+			controller: 'ProjectDetailCtrl',
 			pageTitle: 'Project'
 		});
 
