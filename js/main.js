@@ -4,7 +4,7 @@ var controllers = angular.module('app.controllers', []),
 		services = angular.module('app.services', []),
 		directives = angular.module('app.directives', []);
 
-app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
+app.config(['$routeProvider', function($routeProvider){
 	$routeProvider
 		.when('/', {
 			templateUrl: 'partials/home.html',
@@ -22,14 +22,14 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 			pageTitle: 'Contact'
 		})
 		.when('/projects', {
-			templateUrl:'partials/projects.html',
+			templateUrl: 'partials/projects.html',
 			controller: 'HomeCtrl',
 			pageTitle: 'Projects'
 		})
-		when('/projects/:projectName', {
-			templateUrl:'partials/project.html',
+		.when('/projects/:projectName', {
+			templateUrl: 'partials/project.html',
 			controller: 'HomeCtrl',
-			pageTitle: 'Projects'
+			pageTitle: 'Project'
 		});
 
-}])
+}]);
