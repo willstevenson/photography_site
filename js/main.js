@@ -1,4 +1,4 @@
-var app = angular.module('photographyApp', ['ngRoute', 'app.controllers', 'app.services', 'app.directives']);
+var app = angular.module('photographyApp', ['ngRoute', 'app.controllers', 'app.services', 'app.directives', 'wu.masonry']);
 
 var controllers = angular.module('app.controllers', []),
 		services = angular.module('app.services', []),
