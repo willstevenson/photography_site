@@ -8,7 +8,7 @@ services.factory('ProjectService', ['$q', function($q){
 			bannerSource: 'images/mtwashington2.jpg',
 			assets: [
 				{
-					imageUrl: 'images/first-project/first.jpg'
+					imageUrl: 'images/mtwashington2.jpg'
 				},
 				{
 					imageUrl: 'images/first-project/second.jpg'

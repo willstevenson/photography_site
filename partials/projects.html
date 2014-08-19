@@ -26,7 +26,7 @@
 	<div class="container">
 		<div class="row project-images" masonry load-images="true" preserve-order="true">
 			<div class="col-xs-6 col-md-4 masonry-brick" ng-repeat="project in projects">
-				<a href="project_page.html" class="wrapper">
+				<a href="{{'#/projects/'+project.slug}}" ng-click="showDetailModal(asset)" class="wrapper">
 					<img class="img-responsive gallery-image" ng-src="{{project.thumbnail}}">
 					<span class="hover-font">{{project.name}}</span>
 				</a>
