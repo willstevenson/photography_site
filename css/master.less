@@ -18,6 +18,68 @@ body h1, body h2, body h3, body h4, body h5{
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+section#banner{
+	position: relative;
+	h1#logo{
+		margin: 0 auto;
+		position: absolute;
+		top: 50%;
+		margin-top: -125px;
+		width: 100%;
+		img{
+			margin: 0 auto;
+			max-height: 250px;
+		}
+	}
+}
+
+section#project-overview{
+	.masonry-brick{
+		padding-bottom: 30px;
+		& > a{
+			display: block;
+			position: relative;
+			span.hover-font{
+				display: none;
+				position: absolute;
+				top: 30%;
+				padding: 0 30px;
+				text-align: center;
+				width: 100%;
+			}
+			&:hover{
+				span.hover-font{
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+section#project-detail-assets{
+	.masonry-brick{
+		padding-bottom: 30px;
+		div.image-wrapper{
+			cursor: pointer;
+			display: block;
+			position: relative;
+			span.hover-font{
+				display: none;
+				position: absolute;
+				top: 30%;
+				padding: 0 30px;
+				text-align: center;
+				width: 100%;
+			}
+			&:hover{
+				span.hover-font{
+					display: block;
+				}
+			}
+		}
+	}
+}
+
 
 .main-heading{
 	text-align: center;
@@ -36,7 +98,9 @@ body h1, body h2, body h3, body h4, body h5{
 }
 
 .large-photo{
-	
+	img{
+		margin: 0 auto;
+	}
 }
 
 .banner-heading{
@@ -54,7 +118,7 @@ body h1, body h2, body h3, body h4, body h5{
 	text-align: center;
 	margin-top: 100px;
 	margin-bottom: 100px;
-	font-family: bebasregular;
+	font-family: 'bebasregular';
 }
 
 .little-tidbit1{
