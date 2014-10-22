@@ -237,7 +237,7 @@ services.factory('ProjectService', ['$q', function($q){
 			tidbit:'The Phantom Food Truck is run by Matt & Nancy Sargent and serves up some of the best food you can get.  They are based in Warren, VT but the truck moves so they can take it anywhere.  Luckily the fine folks of the Mad River Valley get the truck three days a week.  Matt had been toying with the idea of getting a truck for years and pulled the trigger earlier this year.  The menu is constantly changing, and the food is always incredible.  Luckily they post a calendar of all of the places that you can find their truck.',
 			date: '08.18.2014',
 			location: 'Waitsfield, VT',
-			camera: '5D MARK II / Canon Elan 7e',
+			camera: '5D Mark II / Canon Elan 7e',
 			assets: [
 				{
 					name: '',
@@ -246,6 +246,63 @@ services.factory('ProjectService', ['$q', function($q){
 				{
 					name: '',
 					imageUrl: 'images/second-project/second.jpg'
+				}
+			]
+		},
+		{
+			slug: 'blueberry_picking',
+			name: 'BLUEBERRY PICKING WITH POPS | WAITSFIELD, VT',
+			description: 'BLUEBERRY PICKING WITH POPS',
+			thumbnail: 'images/blueberries.jpg',
+			bannerSource: 'images/blueberries.jpg',
+			tidbit:'The Phantom Food Truck is run by Matt & Nancy Sargent and serves up some of the best food you can get.  They are based in Warren, VT but the truck moves so they can take it anywhere.  Luckily the fine folks of the Mad River Valley get the truck three days a week.  Matt had been toying with the idea of getting a truck for years and pulled the trigger earlier this year.  The menu is constantly changing, and the food is always incredible.  Luckily they post a calendar of all of the places that you can find their truck.',
+			date: 'August 2014',
+			location: 'Waitsfield, VT',
+			camera: 'Nikon EM',
+			assets: [
+				{
+					name: '',
+					imageUrl: 'images/blueberries.jpg'
+				},
+				{
+					name: '',
+					imageUrl: 'images/blueberries/1.jpg'
+				},
+				{
+					name: '',
+					imageUrl: 'images/blueberries/2.jpg'
+				},
+				{
+					name: '',
+					imageUrl: 'images/blueberries/3.jpg'
+				},
+				{
+					name: '',
+					imageUrl: 'images/blueberries/4.jpg'
+				},
+				{
+					name: '',
+					imageUrl: 'images/blueberries/5.jpg'
+				},
+				{
+					name: '',
+					imageUrl: 'images/blueberries/6.jpg'
+				},
+				{
+					name: '',
+					imageUrl: 'images/blueberries/7.jpg'
+				},
+				{
+					name: '',
+					imageUrl: 'images/blueberries/8.jpg'
+				},
+				{
+					name: '',
+					imageUrl: 'images/blueberries/9.jpg'
+				},
+				{
+					name: '',
+					imageUrl: 'images/blueberries/10.jpg'
 				}
 			]
 		}
